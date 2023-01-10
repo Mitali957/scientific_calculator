@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <link href="icon.png" rel="icon">
+   <title>Scientific Calculator</title>
+</head>
+<body>
+   <div class = "container">
+      <div class = "calculator">
+         <input type="text" id="inputtext" placeholder="0">
+         <button onclick="sin()">sin</button>
+         <button onclick="cos()">cos</button>
+         <button onclick="tan()">tan</button>
+         <button onclick="ln()">ln</button>
+         <button onclick="pow2()">x<sup>2</sup></button>
+         <button onclick="pow3()">x<sup>3</sup></button>
+         <button onclick= "sqrt()">&radic;</button>
+         <button onclick= "cbrt()">&#8731;</button>
+         <button onclick="calculate(1)">1</button>
+         <button onclick="calculate(2)">2</button>
+         <button onclick="calculate(3)">3</button>
+         <button onclick="calculate(4)">4</button>
+         <button onclick="calculate(5)">5</button>
+         <button onclick="calculate(6)">6</button>
+         <button onclick="calculate(7)">7</button>
+         <button onclick="calculate(8)">8</button>
+         <button onclick="calculate(9)">9</button>
+         <button onclick="calculate(0)">0</button>
+         <button onclick="calculate('.')">.</button>
+         <button onclick="calculate('*')">*</button>
+         <button onclick="calculate('+')">+</button>
+         <button onclick="calculate('-')">-</button>
+         <button onclick="calculate('/')">/</button>
+         <button onclick="calculate('%')">%</button>
+         <button onclick="fact()">x!</button>
+         <button onclick="PI()">&#960;</button>
+         <button onclick="clr()">C</button>
+         <button onclick="del()" class="del">DEL</button>
+         <button class="equal" onclick="Result()">=</button>
+      
+      </div>
+         <script src="script.js"></script>
+   </div>  
+   </div>
+</body>
+</html>
